@@ -87,6 +87,10 @@ a:active {
 text-decoration: none;
 }
 
+.home-title {
+    font-size: 50px;
+}
+
 .profile {
     margin: 0 auto;
     max-width: 700px;
@@ -141,6 +145,10 @@ text-align: center;
     border-radius: 15px;
     border-color: antiquewhite;
     font-size: medium;
+}
+
+.about-title {
+    font-size: 50px;
 }
 
 .skills {
