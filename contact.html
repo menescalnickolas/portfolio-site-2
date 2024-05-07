@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <title>Nickolas' Portfolio | CONTACT</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+
+<body>
+    <header class="page-header">
+        <a href="index.html" class="nav-logo"></a>
+
+        <nav class="main-navigation page-header__item">
+            <ul role="menubar" class="navigation-list">
+                <li role="presentation">
+                    <a role="menuitem" href="index.html" class="navigation-list__item">HOME</a>
+                </li>
+                <li role="presentation">
+                    <a role="menuitem" href="about.html" class="navigation-list__item">ABOUT</a>
+                </li>
+                <li role="presentation">
+                    <a role="menuitem" href="work.html" class="navigation-list__item">PROJECTS</a>
+                </li>
+                <li role="presentation">
+                    <a role="menuitem" href="contact.html"
+                        class="navigation-list__item navigation-list__item--active">CONTACT</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <h1 class="contact-title">CONTACT</h1>
+
+    <div class="contact-info">
+        <a href="mailto:menescalnickolas@gmail.com">menescalnickolas@gmail.com</a>
+        <br>
+        <a href="tel:+49 176 2196 1256">+49 176 2196 1256</a>
+        <br>
+    </div>
+    <form action="" method="post" id="contact-form" class="contact-form">
+        <label for="email-input" class="standard-label">*Email:</label>
+        <br>
+        <input type="email" name="email" id="email-input" required>
+        <br>
+        <label for="telefone-input" class="standard-label">Telefone:</label>
+        <br>
+        <input type="tel" id="telefone-input">
+        <br>
+        <label for="message" class="standard-label">*Message:</label>
+        <br>
+        <textarea name="textarea" id="message" maxlength="240" required
+            placeholder="Max. 240 characters"></textarea>
+        <br>
+        <input type="submit" value="Send Message" class="submit">
+    </form>
+
+    <footer class="page-footer page-footer__contact">
+        <p class="footer_title">Find me here:</p>
+        <div class="social-media">
+            <a href="https://www.linkedin.com/in/nickolas-menescal-b044bb133/" class="linkedin-logo" target="_blank">
+                <img src="img/linkedin_icon.svg" alt="LinkedIn Logo">
+            </a>
+            <a href="https://github.com/menescalnickolas" class="github-logo" target="_blank">
+                <img src="img/github_icon.svg" alt="GitHub Logo">
+            </a>
+        </div>
+    </footer>
+
+    <script src="js/tota11y.min.js"></script>
+</body>
+
+</html>

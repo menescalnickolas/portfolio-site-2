@@ -1,0 +1,193 @@
+*{
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: lightgray;
+    --secondary-color: black; 
+    --tertiary-color: #A0BF75;
+    --bold: bold;
+    --width: 500px; 
+}
+
+input,
+texture,
+select,
+button {
+    font-family: system-ui;
+}
+
+body {
+font-family: mukta, sans-serif;
+}
+
+.nav-logo {
+    margin-left: 20px;
+    height: 40px;
+    width: 40px;
+    background-color: var(--tertiary-color);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+h1 {
+    text-align: center;
+}
+
+.page-header {
+    display: flex;
+    width: 100%;
+    padding: 20px; 
+    padding-bottom: 10px;
+}
+
+.page-header__item {
+    flex: 0 1 200px;
+}
+
+.page-header__item:last-child {
+    flex-grow: 1;
+    text-align: right;
+}
+
+.navigation-list {
+    list-style-type: none;
+}
+
+.navigation-list li {
+    display: inline-block;
+    margin-left: 15px;
+    transition: transform 1s ease;
+    animation: 1s scaleLink forwards;
+}
+
+.navigation-list__item--active {
+    font-weight: var(--bold);
+    color: #647749;
+}
+
+a {
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+a:visited {
+    color: #647749;
+}
+
+a:hover,
+a:focus,
+.submit:hover {
+    cursor: pointer;
+    opacity: 0.6;
+    color: var(--tertiary-color);
+}
+
+a:active {
+text-decoration: none;
+}
+
+.profile {
+    margin: 0 auto;
+    max-width: 700px;
+}
+
+.profile__portrait {
+    float: left;
+    max-width: 250px;
+    margin-right: 40px;
+    border-radius: 50%;
+}
+
+.project-list h2 {
+text-align: center;
+}
+
+.page-footer{
+    clear: both; 
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.page-footer__home {
+    margin-top: 300px;
+}
+
+.page-footer__work {
+    margin-top: 125px;
+}
+
+.page-footer__contact {
+    margin: 50px 0;
+}
+
+.social-media{
+    margin-left: -6px;
+    margin-top: -5px;
+}
+
+.linkedin-logo {
+    padding: 5px; 
+}
+
+.about {
+    width: var(--width);
+    height: auto;
+    margin: 0 auto; 
+    border: solid var(--secondary-color);
+    padding: 1%;
+    line-height: 30px;
+    border-radius: 15px;
+    border-color: antiquewhite;
+    font-size: medium;
+}
+
+.skills {
+    margin: 0 auto; 
+    width: var(--width);
+    height: auto; 
+    margin-top: 50px;
+}
+
+.under-construction__text {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 50px;
+    margin-top: 250px;
+}
+
+.contact-title {
+    font-size: 50px;
+}
+
+.contact-info {
+    text-align: center;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+.contact-form {
+    text-align: center;
+    line-height: 25px;
+    padding-top: 25px;
+}
+
+input, textarea {
+    width: 300px;
+    height: 30px;
+    border: 1px solid #A0BF75;
+}
+
+textarea {
+    height: 250px;
+}
+
+.submit {
+    height: 35px;
+    transition: opacity 0.5s;
+    border: #647749;
+    background-color: #A0BF75;
+    
+}
+
