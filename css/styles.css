@@ -195,7 +195,7 @@ textarea {
     border-radius: 2%;
 }
 
-@media all and (max-width: 320px) {
+@media all and (max-width: 430px) {
     .page-header {
         font-size: 15px;
     }
@@ -212,3 +212,4 @@ textarea {
         max-width: 250px;
     }
 }
+
