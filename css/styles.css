@@ -117,6 +117,10 @@ text-align: center;
     text-align: center;
 }
 
+.page-footer__about {
+    margin-top: 150px;
+}
+
 .page-footer__work {
     margin-top: 125px;
 }
@@ -138,11 +142,8 @@ text-align: center;
     width: var(--width);
     height: auto;
     margin: 0 auto; 
-    border: solid var(--secondary-color);
     padding: 1%;
     line-height: 30px;
-    border-radius: 15px;
-    border-color: antiquewhite;
     font-size: medium;
 }
 
