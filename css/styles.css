@@ -95,6 +95,7 @@ text-decoration: none;
 .profile {
     margin: 0 auto;
     max-width: 700px;
+    margin-top: 200px;
 }
 
 .profile__portrait {
