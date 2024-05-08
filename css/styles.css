@@ -195,3 +195,20 @@ textarea {
     border-radius: 2%;
 }
 
+@media all and (max-width: 320px) {
+    .page-header {
+        font-size: 15px;
+    }
+    
+    .home-title, .about-title, .under-construction__text, .contact-title {
+      font-size: 30px;
+    }
+
+    .short-description {
+        font-size: 15px;
+    }
+
+    .about {
+        max-width: 250px;
+    }
+}
