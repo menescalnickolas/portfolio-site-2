@@ -150,12 +150,6 @@ text-align: center;
     font-size: 50px;
 }
 
-.skills {
-    margin: 0 auto; 
-    width: var(--width);
-    height: auto; 
-    margin-top: 50px;
-}
 
 .under-construction__text {
     text-align: center;
