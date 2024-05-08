@@ -193,9 +193,9 @@ textarea {
 
 .submit {
     height: 35px;
+    width: 300px;
     transition: opacity 0.5s;
-    border: #647749;
-    background-color: #A0BF75;
-    
+    background-image: linear-gradient(180deg, #A0BF75, #647749);
+    border-radius: 2%;
 }
 
