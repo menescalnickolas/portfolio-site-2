@@ -69,7 +69,7 @@ h1 {
 
 a {
     text-decoration: none;
-    color: var(--secondary-color);
+    color:#647749;
 }
 
 a:visited {
