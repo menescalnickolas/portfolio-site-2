@@ -124,6 +124,7 @@ text-align: center;
 
 .page-footer__work {
     margin-top: 236px;
+   
 }
 
 .page-footer__contact {
@@ -160,6 +161,35 @@ text-align: center;
     font-weight: bolder;
     font-size: 50px;
     margin-top: 250px;
+}
+
+.grid-container {
+    margin: 100px 160px;
+}
+
+h4 {
+    margin: 0 auto;
+    width: 100px; 
+    height: 100px; 
+}
+
+.screenshot {
+    width: 800px;
+    height: auto; 
+    margin-left: 350px;
+    border: 2px solid black;
+}
+
+.link-to-app-gh {
+    margin-left: 850px;
+    margin-top: 20px;
+}
+
+.description {
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: justify;
 }
 
 .contact-title {
