@@ -36,6 +36,7 @@ h1 {
 
 .page-header {
     display: flex;
+    z-index:auto;
     width: 100%;
     padding: 20px; 
     padding-bottom: 10px;
@@ -225,6 +226,15 @@ textarea {
     background-image: linear-gradient(180deg, #A0BF75, #647749);
     border-radius: 2%;
 }
+
+.grid-container {
+    display: inline-block;
+    margin: 0 auto;
+    margin-left: 50px;
+    margin-top: 50px;
+    padding: 20px;
+    flex-wrap: wrap;
+  }
 
 @media all and (max-width: 430px) {
     .page-header {
