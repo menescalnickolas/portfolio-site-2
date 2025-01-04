@@ -128,7 +128,8 @@ text-align: center;
 }
 
 .page-footer__work {
-    margin-top: 236px;
+    margin-top: 100px;
+    margin-bottom: 70px;
    
 }
 
@@ -246,6 +247,13 @@ textarea {
     margin-right: auto;
     }
 
+.project-cards-section {
+   display: flex;
+}
+
+    .card-img-top {
+        max-width: 300px;
+    }
 
 @media all and (max-width: 430px) {
     .page-header {
