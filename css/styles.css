@@ -148,7 +148,6 @@ text-align: center;
 }
 
 .about {
-    width: var(--width);
     height: auto;
     margin: 0 auto; 
     padding: 1%;
