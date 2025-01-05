@@ -147,6 +147,16 @@ text-align: center;
     padding: 5px; 
 }
 
+.medium-logo {
+    height: 30px;
+    padding: 5px;
+}
+
+.x-logo {
+    height:30px;
+    padding-left: 5px;
+}
+
 .about {
     height: auto;
     margin: 0 auto; 
