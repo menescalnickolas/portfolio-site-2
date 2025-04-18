@@ -95,14 +95,11 @@ text-decoration: none;
 
 .home-title {
     font-size: 50px;
-    text-align: center;
+    text-align: right;
+    margin-right: 350px;
+    margin-top: 250px;
 }
 
-.profile {
-    margin: 0 auto;
-    max-width: 700px;
-    margin-top: 200px;
-}
 
 .short-description {
     text-align: center;
@@ -110,6 +107,7 @@ text-decoration: none;
     flex-direction: column;
     line-height: 25px;
     font-weight: 500;
+    margin-left: 350px;
 }
 
 .project-list h2 {
@@ -269,12 +267,21 @@ textarea {
     }
 
 .profile-picture {
-    
-    width: 200px;
-    margin: 0 auto;
-    display: flex;
+    display: block;
+    top: 13%;
+    left: 20%;
+    position: absolute;
+    align-items: center;
+    width: 400px;
     border-radius: 2%;
-    opacity: 90%;
+    opacity: 100%;
+}
+
+.profile {
+    justify-items: center;
+    margin: 0 auto;
+    max-width: 700px;
+    margin-top: 200px;
 }
 
 @media all and (max-width: 430px) {
